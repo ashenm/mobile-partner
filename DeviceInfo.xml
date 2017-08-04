@@ -1,472 +1,460 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <DeviceInfo>
-  <DeviceReg>
-      <PCUI>
-        <element name="HUAWEI Mobile Connect - 3G PC UI Interface"/>
-        <element name="HUAWEI Mobile Connect - PC UI Interface"/>
-        <element name="V710 - 3G PC UI Interface"/>
-        <element name="NexperiaTM TD-SCDMA AT Interface"/>
-        <element name="ttyUSB_utps_pcui"/>
-        <element name="cu.HUAWEIMobile-Pcui"/>
-        <element name="HUAWEI Mobile CMCC AT Interface"/>
-        <!-- following two are for mobilephone devices -->
-        <element name="Vodafone Mobile Adapter - PC UI Interface"/>
-        <element name="Mobile Adapter - PC UI Interface"/>
-        <element name="Vodafone Mobile Broadband Secondary Port Modem (Huawei)"/>
-        <element name="Mobile Connect - PC UI Interface"/>
-      </PCUI>
-      <Diag>
-        <element name="HUAWEI Mobile Connect - 3G Application Interface"/>
-        <element name="HUAWEI Mobile Connect - Application Interface"/>
-        <element name="V710 - 3G Application Interface"/>
-        <element name="NexperiaTM TD-SCDMA TAT Port (WDM)"/>
-        <element name="ttyUSB_utps_diag"/>
-        <element name="cu.HUAWEIMobile-Diag"/>
-        <element name="Vodafone Mobile Broadband Diagnostics Port (Huawei)"/>
-        <element name="Mobile Connect - Application Interface"/>
-      </Diag>
-      <Modem>
-        <element name="HUAWEI Mobile Connect - 3G Modem"/>
-        <element name="HUAWEI Mobile Connect - Modem"/>
-        <element name="V710 - 3G Modem"/>
-        <element name="NexperiaTM TD-SCDMA Modem I"/>
-        <element name="ttyUSB_utps_modem"/>
-        <element name="cu.HUAWEIMobile-Modem"/>
-        <element name="HUAWEI Mobile CMCC Modem"/>
-        <!-- following two are for mobilephone devices -->
-        <element name="Vodafone Mobile Adapter - Modem"/>
-        <element name="Mobile Adapter - Modem"/>
-        <element name="Mobile Connect - Modem"/>
-        <element name="Vodafone Mobile Broadband Modem (Huawei)"/>
-      </Modem>
-      <MMSModem>
-        <element name="NexperiaTM TD-SCDMA Modem II"/>
-        <element name="HUAWEI Mobile CMCC MMS"/>
-        <element name="ttyUSB_utps_mms"/>
-        <element name="cu.HUAWEIMobile-MMS"/>
-      </MMSModem>
-      <PCVOICE>
-        <element name="HUAWEI Mobile Connect - 3G PC Voice Interface"/>
-        <element name="HUAWEI Mobile Connect - PC Voice Interface"/>
-        <element name="Vodafone Mobile Broadband 3G PC Voice Interface (Huawei)"/>
-        <element name="ttyUSB_utps_pcvoice"/>
-	    <element name="cu.HUAWEIMobile-PCVoice"/>
-      </PCVOICE>
-      <PCSC>
-        <element name="HUAWEI Mobile Connect - USB Smart Card Reader"/>
-        <element name="USB Smart Card reader"/>
-      </PCSC>
-      <NDIS>
-        <element name="HUAWEI Mobile Connect - 3G Network Card"/>
-        <element name="HUAWEI Mobile Connect - Network Card"/>
-        <element name="HUAWEI Mobile Connect - Network Adapter"/>
-        <element name="Mobile Connect - Network Card"/>
-        <element name="Vodafone Mobile Broadband Network Adapter (Huawei)"/>
-      </NDIS>
-    </DeviceReg>
-  
-  <DeviceConfigDefault>
-    <!-- 兼容GSM的制式都默认支持解锁，短信、电话本存储器都只支持SIM卡，短信只支持PDU模式 -->
-    <item name="WCDMA" Alias="" SMMode="PDU" ProductNet="WCDMA" SimUnlock="Y">
-      <PhonebookMemory>
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item> 
-	
-	<!-- CDMA制式都默认支持不解锁，短信、电话本存储器都支持SIM卡与NV，短信只支持TEXT模式  -->
-    <item name="CDMA" Alias="" SMMode="TEXT" ProductNet="CDMA" SimUnlock="Y">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>    
+ <DeviceReg>
+  <PCUI>
+   <element name="HUAWEI Mobile Connect - 3G PC UI Interface"/>
+   <element name="HUAWEI Mobile Connect - PC UI Interface"/>
+   <element name="V710 - 3G PC UI Interface"/>
+   <element name="NexperiaTM TD-SCDMA AT Interface"/>
+   <element name="ttyUSB_utps_pcui"/>
+   <element name="cu.HUAWEIMobile-Pcui"/>
+   <element name="HUAWEI Mobile CMCC AT Interface"/>
+   <!-- following two are for mobilephone devices -->
+   <element name="Vodafone Mobile Adapter - PC UI Interface"/>
+   <element name="Mobile Adapter - PC UI Interface"/>
+   <element name="Vodafone Mobile Broadband Secondary Port Modem (Huawei)"/>
+   <element name="Mobile Connect - PC UI Interface"/>
+  </PCUI>
+  <Diag>
+   <element name="HUAWEI Mobile Connect - 3G Application Interface"/>
+   <element name="HUAWEI Mobile Connect - Application Interface"/>
+   <element name="V710 - 3G Application Interface"/>
+   <element name="NexperiaTM TD-SCDMA TAT Port (WDM)"/>
+   <element name="ttyUSB_utps_diag"/>
+   <element name="cu.HUAWEIMobile-Diag"/>
+   <element name="Vodafone Mobile Broadband Diagnostics Port (Huawei)"/>
+   <element name="Mobile Connect - Application Interface"/>
+  </Diag>
+  <Modem>
+   <element name="HUAWEI Mobile Connect - 3G Modem"/>
+   <element name="HUAWEI Mobile Connect - Modem"/>
+   <element name="V710 - 3G Modem"/>
+   <element name="NexperiaTM TD-SCDMA Modem I"/>
+   <element name="ttyUSB_utps_modem"/>
+   <element name="cu.HUAWEIMobile-Modem"/>
+   <element name="HUAWEI Mobile CMCC Modem"/>
+   <!-- following two are for mobilephone devices -->
+   <element name="Vodafone Mobile Adapter - Modem"/>
+   <element name="Mobile Adapter - Modem"/>
+   <element name="Mobile Connect - Modem"/>
+   <element name="Vodafone Mobile Broadband Modem (Huawei)"/>
+  </Modem>
+  <MMSModem>
+   <element name="NexperiaTM TD-SCDMA Modem II"/>
+   <element name="HUAWEI Mobile CMCC MMS"/>
+   <element name="ttyUSB_utps_mms"/>
+   <element name="cu.HUAWEIMobile-MMS"/>
+  </MMSModem>
+  <PCVOICE>
+   <element name="HUAWEI Mobile Connect - 3G PC Voice Interface"/>
+   <element name="HUAWEI Mobile Connect - PC Voice Interface"/>
+   <element name="Vodafone Mobile Broadband 3G PC Voice Interface (Huawei)"/>
+   <element name="ttyUSB_utps_pcvoice"/>
+   <element name="cu.HUAWEIMobile-PCVoice"/>
+  </PCVOICE>
+  <PCSC>
+   <element name="HUAWEI Mobile Connect - USB Smart Card Reader"/>
+   <element name="USB Smart Card reader"/>
+  </PCSC>
+  <NDIS>
+   <element name="HUAWEI Mobile Connect - 3G Network Card"/>
+   <element name="HUAWEI Mobile Connect - Network Card"/>
+   <element name="HUAWEI Mobile Connect - Network Adapter"/>
+   <element name="Mobile Connect - Network Card"/>
+   <element name="Vodafone Mobile Broadband Network Adapter (Huawei)"/>
+  </NDIS>
+ </DeviceReg>
 
-    <item name="TD-SCDMA" Alias="" SMMode="PDU" ProductNet="TD-SCDMA" SimUnlock="Y">
-      <PhonebookMemory>
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-  </DeviceConfigDefault>
-  
-  <!-- 设备有别名 -->
-  <DeviceAlias>
-      <item devicename="226">E620</item>
-      <item devicename="E168">E169X</item>
-  </DeviceAlias>
+ <DeviceConfigDefault>
+  <!-- 兼容GSM的制式都默认支持解锁，短信、电话本存储器都只支持SIM卡，短信只支持PDU模式 -->
+  <item name="WCDMA" Alias="" SMMode="PDU" ProductNet="WCDMA" SimUnlock="Y">
+   <PhonebookMemory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <!-- CDMA制式都默认支持不解锁，短信、电话本存储器都支持SIM卡与NV，短信只支持TEXT模式  -->
+  <item name="CDMA" Alias="" SMMode="TEXT" ProductNet="CDMA" SimUnlock="Y">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
 
-  <!-- 设备是否支持解锁，如果设备有别名，此处写别名 -->
-  <SimUnlock>
-      <item devicename="E220">n</item>
-      <item devicename="E960">n</item>
-      <item devicename="E970">n</item>
-  </SimUnlock>
-  
-  <!-- USSD不需要编码，完全透传用户的输入给以下设备 -->
-  <UssdUnEncode>
-	  <item devicename="E660"></item>
-	  <item devicename="E800"></item>
-	  <item devicename="E800A"></item>
-	  <item devicename="E800B"></item>
-	  <item devicename="E630"></item>
-	  <item devicename="E220"></item>
-	  <item devicename="E180"></item>
-	  <item devicename="E230"></item>
-	  <item devicename="E170"></item>
-	  <item devicename="E172"></item>
-	  <item devicename="E17X"></item>
-	  <item devicename="E270"></item>
-	  <item devicename="E272"></item>
-	  <item devicename="E870"></item>
-	  <item devicename="E169"></item>
-	  <item devicename="E176"></item>
-	  <item devicename="E176G"></item>
-  </UssdUnEncode>  
+  <item name="TD-SCDMA" Alias="" SMMode="PDU" ProductNet="TD-SCDMA" SimUnlock="Y">
+   <PhonebookMemory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+ </DeviceConfigDefault>
 
-  <DeviceConfigList>
-    <item name="238" ProductId="3" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-      </ShortMessageMemory>
-    </item>
-  
-    <item name="75" ProductId="3" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-      </ShortMessageMemory>
-    </item>
+ <!-- 设备有别名 -->
+ <DeviceAlias>
+  <item devicename="226">E620</item>
+  <item devicename="E168">E169X</item>
+ </DeviceAlias>
 
-    <item name="EC360" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-    <item name="EC328" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-    <item name="EC226" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-    <item name="EC121" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-    <item name="EC821" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-    <item name="EC168" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
+ <!-- 设备是否支持解锁，如果设备有别名，此处写别名 -->
+ <SimUnlock>
+  <item devicename="E220">n</item>
+  <item devicename="E960">n</item>
+  <item devicename="E970">n</item>
+ </SimUnlock>
 
-    <item name="EC228" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
+ <!-- USSD不需要编码，完全透传用户的输入给以下设备 -->
+ <UssdUnEncode>
+  <item devicename="E660"></item>
+  <item devicename="E800"></item>
+  <item devicename="E800A"></item>
+  <item devicename="E800B"></item>
+  <item devicename="E630"></item>
+  <item devicename="E220"></item>
+  <item devicename="E180"></item>
+  <item devicename="E230"></item>
+  <item devicename="E170"></item>
+  <item devicename="E172"></item>
+  <item devicename="E17X"></item>
+  <item devicename="E270"></item>
+  <item devicename="E272"></item>
+  <item devicename="E870"></item>
+  <item devicename="E169"></item>
+  <item devicename="E176"></item>
+  <item devicename="E176G"></item>
+ </UssdUnEncode>
 
-    <item name="EM260" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-
-    <item name="EC168C" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-
-    <item name="EC822" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-
-    <item name="EC1260" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-
-    <item name="EC1825" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-    <item name="EC169" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-    <!-- added to fix DTS2011021704822 begin -->
-     <item name="EC166" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-    <!-- added to fix DTS2011021704822 end -->
-    <item name="EC362" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-    <item name="EC1261" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-
-    <item name="EC8189" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-
-    <item name="EM660" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
-      <PhonebookMemory>
-        <Memory name="ME">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-        <Memory name="SM">
-          <field name="name"/>
-          <field name="mobile"/>
-        </Memory>      
-      </PhonebookMemory>
-      <ShortMessageMemory> 
-        <Memory name="ME"/>
-        <Memory name="SM"/>
-      </ShortMessageMemory>
-    </item>
-
-  </DeviceConfigList>
+ <DeviceConfigList>
+  <item name="238" ProductId="3" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="75" ProductId="3" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC360" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC328" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC226" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC121" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC821" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC168" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC228" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EM260" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC168C" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC822" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC1260" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC1825" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC169" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <!-- added to fix DTS2011021704822 begin -->
+  <item name="EC166" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <!-- added to fix DTS2011021704822 end -->
+  <item name="EC362" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC1261" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EC8189" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+  <item name="EM660" ProductId="57" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
+   <PhonebookMemory>
+    <Memory name="ME">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+    <Memory name="SM">
+     <field name="name"/>
+     <field name="mobile"/>
+    </Memory>
+   </PhonebookMemory>
+   <ShortMessageMemory>
+    <Memory name="ME"/>
+    <Memory name="SM"/>
+   </ShortMessageMemory>
+  </item>
+ </DeviceConfigList>
 </DeviceInfo>
