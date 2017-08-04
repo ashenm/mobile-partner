@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT TrendsCtrlProfile (Graphic, Text)>
+<!ATTLIST TrendsCtrlProfile
+	version CDATA #REQUIRED
+>
+<!ELEMENT Graphic (Color+)>
+<!ELEMENT Color EMPTY>
+<!ATTLIST Color
+	id (ID_BACKGROUND1 | ID_BACKGROUND2 | ID_GRID | ID_TEXT | ID_PLOT1 | ID_PLOT2) #REQUIRED
+	color CDATA #REQUIRED
+>
+<!ELEMENT Text (Font+)>
+<!ELEMENT Font EMPTY>
+<!ATTLIST Font
+	id (ID_PLOT | ID_XUNITS | ID_YUNITS | ID_YRANGES) #REQUIRED
+	family CDATA #REQUIRED
+	style (Regular | Bold | Italic | BoldItalic | Underline | Strikeout) #REQUIRED
+	size CDATA #REQUIRED
+>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="sysconfig">
+	<menu name="traymenu" type="POPUP" parent="null" device="all">
+		<item type="ITEM" id="IDS_XFRAME_DISPLAY">Display...</item>
+		<item type="ITEM" id="IDS_MAINFRM_MENU_MAINFR_ABOUT">About Mobile Partner...</item>
+		<!--item type="ITEM" id="IDS_TRAY_CONNECT">Connect</item>
+		<item type="ITEM" id="IDS_XFRAME_OPER">Operation</item-->
+		<item type="POPUP" id="IDS_TRAY_CALL_MENU">Call</item>
+		<item type="ITEM" id="IDS_SETTING_BUTTON_EXIT">Exit</item>
+	</menu>
+	<menu name="traymenu" type="POPUP" parent="Call" device="all">
+		<item type="ITEM" id="IDS_TRAY_CALL_ANSWER">Answer</item>
+		<item type="ITEM" id="IDS_TRAY_CALL_HANGUP">Hangup/Reject</item>
+	</menu>
+</utpsdoc>

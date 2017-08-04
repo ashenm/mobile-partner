@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<phonebook total="6">
+	<item name="name" long="48" limit="null" forbid="null" type="Name" unicode="1">
+		<userdefine sum="4">
+			<element name="ctrlid">5020</element>
+			<element name="staticid">5070</element>
+			<element name="ctrltype">0</element>
+			<element name="langResId">ID_STR_NAME</element>
+		</userdefine>
+	</item>
+	<item name="mobile" long="24" limit="*#0123456789+" forbid="null" type="Mobile" unicode="0">
+		<userdefine sum="4">
+			<element name="ctrlid">5021</element>
+			<element name="staticid">5071</element>
+			<element name="ctrltype">0</element>
+			<element name="langResId">ID_STR_MOBILE_PHONE</element>
+		</userdefine>
+	</item>
+	<item name="officePhone" long="24" limit="*#0123456789+" forbid="null" type="Number" unicode="0">
+		<userdefine sum="4">
+			<element name="ctrlid">5023</element>
+			<element name="staticid">5073</element>
+			<element name="ctrltype">0</element>
+			<element name="langResId">ID_STR_BUSINESS_PHONE</element>
+		</userdefine>
+	</item>
+	<item name="homePhone" long="24" limit="*#0123456789+" forbid="null" type="Number" unicode="0">
+		<userdefine sum="4">
+			<element name="ctrlid">5022</element>
+			<element name="staticid">5072</element>
+			<element name="ctrltype">0</element>
+			<element name="langResId">ID_STR_HOME_PHONE</element>
+		</userdefine>
+	</item>
+	<item name="email" long="128" limit="null" forbid="null" type="Email" unicode="0">
+		<userdefine sum="4">
+			<element name="ctrlid">5025</element>
+			<element name="staticid">5075</element>
+			<element name="ctrltype">0</element>
+			<element name="langResId">ID_STR_EMAIL</element>
+		</userdefine>
+	</item>
+	<item name="remark" long="200" limit="null" forbid="null" type="Remaik" unicode="1">
+		<userdefine sum="4">
+			<element name="ctrlid">5026</element>
+			<element name="staticid">5076</element>
+			<element name="ctrltype">1</element>
+			<element name="langResId">ID_STR_NOTES</element>
+		</userdefine>
+	</item>
+</phonebook>

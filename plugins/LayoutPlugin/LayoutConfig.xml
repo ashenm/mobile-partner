@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="layout">
+	<layout mode="mainframe">
+		<group name="menubar" y="0" height="21">
+			<plugin name="MenuMgrPlugin" default="true"/>
+		</group>
+		<group name="toolbar" y="21" height="50">
+			<plugin name="ToolBarMgrPlugin" default="true"/>
+		</group>
+		<!--UI Plugin's height is useless, since the coordinate is changed when resizing-->
+		<group name="business" y="71" height="405">
+			<plugin name="SMSUIPlugin" default="false"/>
+			<plugin name="AddrBookUIPlugin" default="false"/>
+			<plugin name="DialupUIPlugin" default="true"/>
+			<plugin name="NetInfoUIExPlugin" default="false"/>
+			<plugin name="USSDUIPlugin" default="false"/>
+			<plugin name="CallUIPlugin" default="false"/>
+			<plugin name="CallLogUIPlugin" default="false"/>
+			<plugin name="MMSUIPlugin" default="false"/>
+			<plugin name="NetInfoRecordUIPlugin" default="false"/>
+		</group>
+		<!--Status bar's y coordiante is useless, since the coordinate is changed when resizing-->
+		<group name="statusbar" y="476" height="40">
+			<plugin name="StatusBarMgrPlugin" default="true"/>
+		</group>
+	</layout>
+	<layout mode="miniframe">
+		<group name="business" y="0" height="192">
+			<plugin name="MiniFrameUIPlugin" default="true"/>
+		</group>
+		<!--group name="business" y="0" height="136">
+			<plugin name="DialupUIPlugin" default="true"/>
+		</group>
+		<group name="statusbar" y="137" height="35">
+			<plugin name="StatusBarMgrPlugin" default="true"/>
+		</group-->
+	</layout>
+</utpsdoc>

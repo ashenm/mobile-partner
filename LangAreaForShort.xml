@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<utpsdoc type="resource">
+	<module name="LocTool">
+  		<item name="Afrikaans" id="1078">af</item>
+  		<item name="Icelandic" id="1039">is</item> 
+  		<item name="Albanian" id="1052">sq</item> 
+  		<item name="Indonesian" lang="Indonesian" id="1057">id</item>
+  		<item name="Italian - Italy" lang="Italian" id="1040">it-it</item>
+  		<item name="Arabic - Bahrain" id="15361">ar-bh</item>
+  		<item name="Italian - Switzerland" id="2064">it-ch</item>
+  		<item name="Arabic - Algeria" id="5121">ar-dz</item>
+  		<item name="Arabic - Egypt" id="3073">ar-eg</item>
+  		<item name="Japanese" lang="Japanese" id="1041">ja</item>
+  		<item name="Korean" lang="Korean" id="1042">ko</item>
+  		<item name="Arabic - Iraq" id="2049">ar-iq</item>
+  		<item name="Latvian" lang="Latvian" id="1062">lv</item>
+  		<item name="Arabic - Jordan" id="11265">ar-jo</item>
+  		<item name="Lithuanian" id="1063">lt</item>
+  		<item name="Arabic - Kuwait" lang="Arabic" id="13313">ar</item>
+  		<item name="FYRO Macedonian" lang="Macedonian" id="1071">mk</item>
+  		<item name="Malay - Malaysia" id="1086">ms-my</item>
+  		<item name="Arabic - Lebanon" id="12289">ar-lb</item>
+  		<item name="Arabic - Libya" id="4097">ar-ly</item>
+  		<item name="Arabic - Morocco" id="6145">ar-ma</item>
+  		<item name="Maltese" id="1082">mt</item>
+  		<item name="Arabic - Oman" id="8193">ar-om</item>
+  		<item name="Arabic - Qatar" id="16385">ar-qa</item>
+  		<item name="Arabic - Saudi Arabia" id="1025">ar-sa</item>
+  		<item name="Norwegian - Nynorsk" lang="NorwegianNynorsk" id="2068">no-no</item>
+  		<item name="Arabic - Syria" id="10241">ar-sy</item>
+  		<item name="Polish" lang="Polish" id="1045">pl</item>
+  		<item name="Arabic - Tunisia" id="7169">ar-tn</item>
+  		<item name="Portuguese - Portugal" lang="Portuguese" id="2070">pt-pt</item>
+  		<item name="Arabic - Yemen" id="9217">ar-ye</item>
+  		<item name="Portuguese - Brazil" lang="PortugueseBR" id="1046">pt-br</item>
+		<item name="Spanish - Spain" lang="Spanish" id="3082">es-es</item>
+		
+ 		<item name="Malay - Brunei">ms-bn</item>
+		<item name="Marathi">mr</item>
+		<item name="Norwegian" lang="Norwegian" id="1044" maccode="nb" linuxcode="nb_NO">no</item>
+  		<item name="Armenian">hy</item>
+  		<item name="Raeto-Romance">rm</item>
+  		<item name="Azeri - Latin">az-az</item>
+  		<item name="Azeri - Cyrillic">az-az</item>
+		<item name="Sanskrit">sa</item>
+		<item name="Setsuana">tn</item>
+		<item name="Chinese - Macau SAR">zh-mo</item>		
+		<item name="Tagalog - Phillippines">tl-ph</item>
+		<item name="Faroese">fo</item>
+  		<item name="Swahili">sw</item>
+  		<item name="Tamil">ta</item>
+  		<item name="Tatar">tt</item>
+		<item name="Uzbek - Cyrillic">uz-uz</item>
+  		<item name="Uzbek - Latin">uz-uz</item>
+
+  		<item name="Romanian - Romania" lang="Romanian" id="1048">ro</item>
+  		<item name="Romanian - Moldova" id="2072">ro-mo</item>
+  		<item name="Basque" id="1069">eu</item>
+  		<item name="Russian" lang="Russian" id="1049">ru</item>
+  		<item name="Belarusian" id="1059">be</item>
+  		<item name="Russian - Moldova" id="2073">ru-mo</item>
+  		<item name="Bulgarian" lang="Bulgarian" id="1026">bg</item>	
+  		<item name="Catalan" id="1027">ca</item>
+  		<item name="Serbian - Latin" lang="Serbian - Latin" id="2074">sr-sp</item>
+  		<item name="Serbian - Cyrillic" lang="Serbian" id="3098">sr-sp</item>
+  		<item name="Chinese - China" lang="SimpChinese" id="2052">zh-cn</item>
+  		<item name="Chinese - Hong Kong SAR" lang="ChineseHK" id="3076" maccode="zh-Hant">zh-hk</item>
+  		<item name="Slovenian" lang="Slovenian" id="1060">sl</item>
+  		<item name="Chinese - Singapore" id="4100 ">zh-sg</item>
+  		<item name="Slovak" lang="Slovak" id="1051">sk</item>
+  		<item name="Chinese - Taiwan" lang="TradChinese" id="1028" maccode="zh-Hant">zh-tw</item>
+  		<item name="Sorbian" id="1070">sb</item>
+  		<item name="Croatian" lang="Croatian" id="1050">hr</item>	
+  		<item name="Czech" lang="Czech" id="1029">cs</item>
+  		<item name="Spanish - Argentina" lang="SpanishArg" id="11274" maccode="es-419">es-ar</item>
+  		<item name="Danish" lang="Danish" id="1030">da</item>
+  		<item name="Spanish - Bolivia" id="16394">es-bo</item>
+  		<item name="Dutch - The Netherlands" lang="Dutch" id="1043">nl-nl</item>
+  		<item name="Spanish - Chile" id="13322">es-co</item>
+  		<item name="English - Australia" id="3081">en-au</item>
+  		<item name="Spanish - Costa Rica" id="5130">es-cr</item>
+  		<item name="English - Belize" id="10249">en-bz</item>
+  		<item name="Spanish - Dominican Republic" id="7178">es-do</item>
+  		<item name="English - Canada" id="4105">en-ca</item>
+  		<item name="Spanish - Ecuador" id="Spanish">es-ec</item>
+  		<item name="English - Caribbean" id="9225">en-cb</item>
+  		<item name="Spanish - Guatemala" id="4106">es-gt</item>
+  		<item name="English - Ireland" id="6153">en-ie</item>
+  		<item name="Spanish - Honduras" id="18442">es-hn</item>
+  		<item name="English - Jamaica" id="8201">en-jm</item>
+  		<item name="Spanish - Mexico" id="2058">es-mx</item>
+  		<item name="English - New Zealand" id="5129">en-nz</item>
+  		<item name="Spanish - Nicaragua" id="19466">es-ni</item>
+  		<item name="Spanish - Panama" id="6154">es-pa</item>
+  		<item name="English - South Africa" id="7177">en-za</item>
+  		<item name="Spanish - Peru" id="10250">es-pe</item>
+  		<item name="English - Trinidad" id="11273">en-tt</item>
+  		<item name="Spanish - Puerto Rico" id="20490">es-pr</item>
+  		<item name="English - United Kingdom" lang="English_UK" id="2057">en-gb</item>
+  		<item name="Spanish - Paraguay" id="15370 ">es-py</item>
+  		<item name="English - United States" lang="English" id="1033">en-us</item>
+  		<item name="Spanish - El Salvador" id="17418">es-sv</item>
+  		<item name="Estonian" lang="Estonian" id="1061">et</item>
+  		<item name="Spanish - Uruguay" id="14346">es-uy</item>
+  		<item name="Farsi" id="1065">fa</item>
+  		<item name="Spanish - Venezuela" id="8202">es-ve</item>
+  		<item name="Finnish" lang="Finnish" id="1035">fi</item>
+  		<item name="Sutu" id="1072">sx</item>
+  		<item name="French - France" lang="French" id="1036">fr-fr</item>
+  		<item name="Swedish - Sweden" lang="Swedish" id="1053">sv-se</item>
+  		<item name="French - Belgium" id="2060">fr-be</item>
+  		<item name="Swedish - Finland" id="2077">sv-fi</item>
+  		<item name="French - Luxembourg" id="5132">fr-lu</item>
+  		<item name="French - Switzerland" id="4108">fr-ch</item>
+  		<item name="Thai" id="1054">th</item>
+  		<item name="Gaelic - Ireland" id="2108">gd-ie</item>
+  		<item name="Gaelic - Scotland" id="1084">gd</item>
+  		<item name="Turkish" lang="Turkish" id="1055">tr</item>
+  		<item name="Tsonga" id="1073">ts</item>
+  		<item name="German - Germany" lang="German" id="1031">de-de</item>
+  		<item name="German - Austria" id="3079">de-at</item>
+  		<item name="German - Liechtenstein" id="5127">de-li</item>		
+  		<item name="German - Luxembourg" id="4103">de-lu</item>
+  		<item name="German - Switzerland" id="2055">de-ch</item>
+  		<item name="Ukrainian" lang="Ukrainian" id="1058">uk</item>
+  		<item name="Urdu" id="1056">ur</item>
+  		<item name="Vietnamese" id="1066">vi</item>
+  		<item name="Greek" lang="Greek" id="1032">el</item>
+  		<item name="Xhosa" id="1076">xh</item>
+  		<item name="Hebrew" lang="Hebrew" id="1037">he</item>
+  		<item name="Yiddish" id="1085">yi</item>
+  		<item name="Hindi" id="1081">hi</item>
+  		<item name="Zulu" id="1077">zu</item>
+  		<item name="Hungarian" lang="Hungarian" id="1038">hu</item>
+		<item name="Laotian - Laos">lo-la</item>
+	</module>
+</utpsdoc>									

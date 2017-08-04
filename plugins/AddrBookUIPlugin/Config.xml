@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<utpsdoc type="sysconfig">
+	<menu name="tree" type="POPUP" parent="null" device="all">
+		<item type="ITEM" id="IDS_Add_GROUP">New Group</item>
+		<item type="ITEM" id="IDS_EDIT_GROUP">Rename Group</item>
+		<item type="ITEM" id="IDS_DEL_GROUP">Delete Group</item>
+		<item type="ITEM" id="IDS_SEND_MSG">Send Text Message</item>
+		<item type="ITEM" id="IDS_SEND_MMS">Send Multimedia Message</item>
+	</menu>
+	<menu name="listview" type="POPUP" parent="null" device="all">
+		<item type="ITEM" id="IDS_PMMENU_ADD">New</item>
+		<item type="ITEM" id="IDS_PMMENU_DETAIL">Edit</item>
+		<item type="ITEM" id="IDS_PMMENU_DELETE">Delete</item>
+		<item type="ITEM" id="IDS_PMMENU_REMFRGRP">Remove from Group</item>
+		<item type="SEPERATOR" id=""></item>
+		<item type="POPUP" id="IDS_PMMENU_SEND">Send</item>
+		<item type="ITEM" id="IDS_PMMENU_CALL">Call</item>
+		<item type="SEPERATOR" id=""></item>
+		<item type="ITEM" id="IDS_IMPORT_PHONEBOOK">Import</item>
+		<!--item type="ITEM" id="IDS_PMMENU_IMPORT_FROM_MOE">Import from MOE</item>
+		<item type="ITEM" id="IDS_PMMENU_IMPORT_FROM_MOO">Import from MOO</item-->
+		<item type="ITEM" id="IDS_EXPORT_PHONEBOOKSEL">Export Selected Contacts</item>
+		<item type="ITEM" id="IDS_EXPORT_PHONEBOOK">Export All Contacts</item>
+		<!--item type="SEPERATOR" id=""></item>
+		<item type="POPUP" id="IDS_MENU_MOVE2">Move to</item>
+		<item type="POPUP" id="IDS_MENU_MOVEAll2">Move All to</item>
+		<item type="POPUP" id="IDS_MENU_COPY2">Copy to</item>
+		<item type="POPUP" id="IDS_MENU_COPYAll2">Copy All to</item>
+		<item type="SEPERATOR" id=""></item>
+		<item type="POPUP" id="IDS_MENU_MOVEAllFROM">Move All from</item>
+		<item type="POPUP" id="IDS_MENU_COPYAllFROM">Copy All from</item-->
+	</menu>
+	<menu name="listview" type="POPUP" parent="Send" device="all">
+		<item type="ITEM" id="IDS_PMMENU_SEND_MSG">Send Text Message</item>
+		<item type="ITEM" id="IDS_PMMENU_SEND_MMS">SendMultimedia Message</item>
+		<!--item type="ITEM" id="IDS_PMMENU_SEND_CARD">Send Card</item-->
+	</menu>
+	<menu name="listview" type="POPUP" parent="Move to" device="all">
+		<item type="ITEM" id="IDS_LOCAL_PHONEBOOKUI">Local</item>
+		<item type="ITEM" id="IDS_SIM">SIM</item>
+		<item type="ITEM" id="IDS_NV">device</item>
+	</menu>
+	<menu name="listview" type="POPUP" parent="Move All to" device="all">
+		<item type="ITEM" id="IDS_LOCAL_PHONEBOOKUI">Local</item>
+		<item type="ITEM" id="IDS_SIM">SIM</item>
+		<item type="ITEM" id="IDS_NV">device</item>
+	</menu>
+	<menu name="listview" type="POPUP" parent="Copy to" device="all">
+		<item type="ITEM" id="IDS_LOCAL_PHONEBOOKUI">Local</item>
+		<item type="ITEM" id="IDS_SIM">SIM</item>
+		<item type="ITEM" id="IDS_NV">device</item>
+	</menu>
+	<menu name="listview" type="POPUP" parent="Copy All to" device="all">
+		<item type="ITEM" id="IDS_LOCAL_PHONEBOOKUI">Local</item>
+		<item type="ITEM" id="IDS_SIM">SIM</item>
+		<item type="ITEM" id="IDS_NV">device</item>
+	</menu>
+	<!--menu name="listview" type="POPUP" parent="Move All from" device="all">
+		<item type="ITEM" id="IDS_LOCAL_PHONEBOOKUI">Local</item>
+		<item type="ITEM" id="IDS_SIM">SIM</item>
+		<item type="ITEM" id="IDS_NV">device</item>
+	</menu>
+	<menu name="listview" type="POPUP" parent="Copy All from" device="all">
+		<item type="ITEM" id="IDS_LOCAL_PHONEBOOKUI">Local</item>
+		<item type="ITEM" id="IDS_SIM">SIM</item>
+		<item type="ITEM" id="IDS_NV">device</item>
+	</menu-->
+	<ToolBar name="AddrBookUIPlugin" count="9">
+		<item resource="IDS_PMBTN_ADD" enabled="pb_icon_new.png" disabled="tab_pb_new_gray.png" pluginname="" id="9000"></item>
+		<item resource="IDS_EDIT_LINKMAN" enabled="pb_icon_edit.png" disabled="tab_pb_edit_gray.png" pluginname="" id="9001"></item>
+		<item resource="IDS_PMBTN_DELETE" enabled="pb_icon_delect.png" disabled="tab_pb_delete_gray.png" pluginname="" id="9002"></item>
+		<item resource="IDS_PMBTN_CALL" enabled="pb_icon_call.png" disabled="tab_pb_call_gray.png" pluginname="CallUIPlugin" id="9003"></item>
+		<item resource="IDS_PMMENU_SEND" enabled="pb_icon_send.png" disabled="tab_pb_send message_gray.png" pluginname="SMSUIPlugin" id="9005"></item>
+		<item resource="IDS_PMTOOLBAR_SEARCH" enabled="search.png" disabled="search.png" pluginname="" id="9006"></item>
+		<item resource="IDS_PMBTN_IMPORT_FROM_MOE" enabled="pb_icon_outlook_express.png" disabled="tab_pb_icon_outlook_express_gray.png" pluginname="NonExisting" id="9007"></item>
+		<item resource="IDS_PMBTN_IMPORT_FROM_MOO" enabled="pb_icon_outlook.png" disabled="tab_pb_icon_outlook_gray.png" pluginname="NonExisting" id="9008"></item>
+	</ToolBar>
+	<SMSNumber count="20"/>
+	<GroupInGroup enable="0"/>
+</utpsdoc>

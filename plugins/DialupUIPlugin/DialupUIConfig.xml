@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<utpsdoc type="sysconfig">
+	<common>
+		<BandSetting>
+			<displayband>0</displayband>
+			<bandname></bandname>
+			<align>BOTTOMRIGHT</align>
+			<alignRTL>1</alignRTL>
+			<rect></rect>
+		</BandSetting>
+		<Functions>
+			<Maniple>false</Maniple>
+			<SpecialSkin>false</SpecialSkin>
+			<MultiDiaupConnect>false</MultiDiaupConnect>
+		</Functions>
+		<!--ConnectedHomePage>
+			<function>
+				<timewait>5</timewait>
+			</function>
+			<defaultHomePage>
+				<default></default>
+			</defaultHomePage>
+			<IMSIHomePage enable="true">
+				<item name="24002" value="http://www.google.com"/>
+			</IMSIHomePage>
+			<APNHomePage enable="true">
+				<item name="google" value="http://www.google.com"/>
+			</APNHomePage>
+		</ConnectedHomePage-->
+	</common>
+	<!--customize name="TELCEL_C46" desc="Mexico telcel for E226">
+		<BandSetting>
+			<displayband>1</displayband>
+			<bandname>OperatorBand.png</bandname>
+			<NONE/LEFT/TOP/RIGHT/BOTTOM/TOPLEFT/TOPRIGHT/BOTTOMLEFT/BOTTOMRIGHT>
+			<align>BOTTOMRIGHT</align>
+			<alignRTL>1</alignRTL>
+			<rect>10,44,55,60</rect>
+		</BandSetting>
+	</customize-->
+	<HtmlPage>
+		<ShowHtmlPage>false</ShowHtmlPage>
+		<HtmlTopFileName>html\htmltop.html</HtmlTopFileName>
+		<HtmlBottomFileName>html\htmlbottom.html</HtmlBottomFileName>
+		<!--top/bottom/both-->
+		<HtmlPos>bottom</HtmlPos>
+		<HtmlHeight>100</HtmlHeight>
+		<!--WebFile Default="http://nchelp/en/index-en.htm"></WebFile-->
+	</HtmlPage>
+</utpsdoc>

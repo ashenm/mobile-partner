@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="config">
+	<subframesize width="625" height="463"/>
+	<dragwidget name="miniplugin_bgwidget"/>
+	<connectvisblewidgets>
+		<item name="miniplugin_statsticswidget"/>
+		<item name="miniplugin_connecttimelabel"/>
+		<item name="miniplugin_downloadiconlabel"/>
+		<item name="miniplugin_downloadtextlabel"/>
+		<item name="miniplugin_uploadiconlabel"/>
+		<item name="miniplugin_uploadtextlabel"/>
+		<item name="miniplugin_uploadtextlabel"/>
+	</connectvisblewidgets>
+	<menuicons>
+		<item id="IDS_XFRAME_OPER"/>
+		<item id="IDS_XFRAME_OPTION" iconname="menu_settings"/>
+		<item id="IDS_MAINFRM_LANG_PROMPT"/>
+		<item id="IDS_MAINFRM_MENU_PIN"/>
+		<item id="IDS_MAINFRM_DIAGNOSTICS_WINDOWSTXT"/>
+		<item id="IDS_XFRAME_DEVMGR"/>
+		<item id="IDS_XFRAME_SWITCH_SKIN"/>
+		<item id="IDS_SEPRATOR"/>
+		<item id="IDS_MAINFRM_MENU_MAINFR_HELP" iconname="menu_help"/>
+		<item id="IDS_MAINFRM_UPDATEVIA"/>
+		<item id="IDS_MAINFRM_MENU_MAINFR_ABOUT"/>
+	</menuicons>
+	<customize>
+	</customize>
+</utpsdoc>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<USSD>
+	<!-- Judge is Prepaid or Postpaid，If it is "true"，When the judge it out Postpaid,Ashing was hidden menu/icon,
+	If it is "false",Does not distinguish between Prepaid or Postpaid -->
+	<!--item name="PrePostDiffer" value="true"-->
+	<PrePostDiffer value="false">
+		<!-- Query whether is Prepaid USSD command -->
+		<command>*130#</command>
+		<!-- Side of the return value is the expression used to determine，Can match this expression is Prepaid. EXAMPLE:"\d" that contains at least one number "1-9” -->
+		<ReturnPattern>"\d"</ReturnPattern>
+		<!-- Found after the model of Postpaid，"0" is disable menu/icon,"1"is hide menu/icon -->
+		<!-- Note:The time being only the realization of disable ,not the realization of the hidden 
+			Proc_DisablePrePaid = 0, //Disable Propaid
+			Proc_HidePrePaid, //Hide Prepaid
+			Proc_DisablePostPaid, //Disable Postpaid
+			Proc_HidePostPaid, //Hide Postpaid
+			Proc_DisableAll, //Disable All
+			Proc_Hide, //Hide
+			Proc_OneInstance_Nothing, //One Instance nothing
+			Proc_TwoInstance_Nothing, //Two Instance nothing -->
+		<style>6</style>
+	</PrePostDiffer>
+	<Prepaid>
+		<!-- The following four groups of functions can be configured to hide and display, respectively,in the gui on the order of the configuretion from here -->
+		<!-- Balance inquiries. "true" is Show，"false" is hide. pos interface shows the order of，0 is top，followed inorderof priority -->
+		<item name="Balance" value="true" pos="0">
+			<!-- USSD balance inquiry command length "0" is not limit，Non-0 at least enter a few letters -->
+			<command></command>
+		</item>
+		<!-- Top. "true" is show，"false" is hide -->
+		<item name="Charge" value="true" pos="1">
+			<!--Top of ussd commands-->
+			<command></command>
+			<!-- Top of ussd commands lenght -->
+			<length>100</length>
+			<minlenth>5</minlenth>
+			<!-- Network side of the string to return the display style. 0 issued in the same window，1 is popup MessageBox -->
+			<ReturnStyle>0</ReturnStyle>
+			<LimitText>*#1234567890</LimitText>
+		</item>
+		<!-- Online top，Can be connected to a URL. "true" is show，"false" is hide -->
+		<item name="OnlineCharge" value="false" pos="2">
+			<URL>http://www.huawei.com/prepaid</URL>
+		</item>
+		<!-- MSISDN query. "true" is show，"false" is hide -->
+		<!-- Applies not only to the components and USSD,but also with any "USSD query category" demand，For example: the state of the user's query-->
+		<item name="MSISDN" value="false" pos="3">
+			<!-- MSISDN query the length of the USSD command -->
+			<command></command>
+			<!-- Whether show Upate button,"0" is not show，"1"is show -->
+			<UpdateButton>1</UpdateButton>
+		</item>
+	</Prepaid>
+	<Postpaid>
+		<!-- The following four groups of functions，can show or hide，In the interface of the control order is here -->
+		<!-- Balance inquiries. "true" is show，"false" is hide. pos sain the dispaly order of UI，0 at the top，follow-up with an inferior race -->
+		<item name="Balance" value="true" pos="0">
+			<!-- USSD balance inquiry command length. "0" is not limit，Non-0 at least enter a few letters -->
+			<command></command>
+		</item>
+		<!-- Top. "true" is show ，"false" is hide -->
+		<item name="Charge" value="true" pos="1">
+			<!--Top of ussd commands-->
+			<command></command>
+			<!-- Top of ussd commands lenght -->
+			<length>100</length>
+			<minlenth>5</minlenth>
+			<!-- Online top，Can be connected to a URL. "true" is show，"false" is hide -->
+			<ReturnStyle>0</ReturnStyle>
+			<LimitText>*#1234567890</LimitText>
+		</item>
+		<!-- Online recharge,you can connect to a URL,"true" is show，"false" is hide -->
+		<item name="OnlineCharge" value="false" pos="2">
+			<URL>http://www.huawei.com/prepaid</URL>
+		</item>
+		<!-- MSISDN query. "true" is show，"false" is hide -->
+		<!-- Applies not only to the components and USSD,but also with any "USSD query category" demand，For example: the state of the user's query -->
+		<item name="MSISDN" value="false" pos="3">
+			<!-- USSD query the length of the command -->
+			<command></command>
+			<!-- Whether show update button ,"0" is not show button ,"1" is show button -->
+			<UpdateButton>1</UpdateButton>
+		</item>
+	</Postpaid>
+	<General>
+		<send>
+			<yHeight>200</yHeight>
+			<yOffset>10</yOffset>
+			<color red="0" green="0" blue="0"></color>
+		</send>
+		<!-- Text fonts to receive the configuration -->
+		<recevie>
+			<yHeight>200</yHeight>
+			<yOffset>10</yOffset>
+			<color red="0" green="0" blue="255"></color>
+		</recevie>
+		<cmdEdit visible="true">
+			<readonlycolor red="236" green="233" blue="216"></readonlycolor>
+			<commoncolor red="255" green="255" blue="255"></commoncolor>
+			<headcolor red="66" green="142" blue="194"></headcolor>
+		</cmdEdit>
+		<clearHistory visible="false" showConfirmDialog="false"/>
+		<autoUSSD valid="false">
+			<item imsi="4600902" ussd="Prepaid/Advanced"/>
+			<item imsi="4600975" ussd="Prepaid/Postpaid/Commonpaid"/>
+			<item imsi="46009" ussd="Advanced"/>
+		</autoUSSD>
+	</General>
+</USSD>

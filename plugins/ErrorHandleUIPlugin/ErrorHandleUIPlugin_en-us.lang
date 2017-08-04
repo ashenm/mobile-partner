@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+<module name="AboutPlugin">
+  <item name="IDS_TITLE_NAME">Mobile Partner</item>
+  <item name="IDS_BUTTON_DIAGNOSE">Diagnose</item>
+  <item name="IDS_BUTTON_CANCEL">Cancel</item>
+  <item name="IDS_ERROR_CODE">Error code:</item>
+  <item name="IDS_CONNECT_FAILED">Connection failed</item>
+  <item name="IDS_NO_DEVICE">Unable to establish a dial-up connection, because no device is available.</item>
+  <item name="IDS_NO_NETREGISTER">Unable to establish a dial-up connection, because the device is not registered to an available network.</item>
+</module>
+</utpsdoc>
