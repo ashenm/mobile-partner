@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TrendsCtrlProfile SYSTEM "TrendsCtrlProfile.dtd">
-<TrendsCtrlProfile version="1.0">
-    <Graphic>
-        <Color id="ID_BACKGROUND1" color="#FF000000"/>
-        <Color id="ID_BACKGROUND2" color="#FF000000"/>
-        <Color id="ID_PLOT1" color="#B0EAEA00"/>
-        <Color id="ID_PLOT2" color="#B016D116"/>
-        <Color id="ID_GRID" color="#FF00EAEA"/>
-        <Color id="ID_TEXT" color="#FFFFFFFF"/>
-    </Graphic>
-    <Text>
-        <Font id="ID_PLOT" family="MS Shell Dlg" style="Regular" size="11"/>
-        <Font id="ID_XUNITS" family="MS Shell Dlg" style="Regular" size="11"/>
-        <Font id="ID_YUNITS" family="MS Shell Dlg" style="Regular" size="11"/>
-        <Font id="ID_YRANGES" family="MS Shell Dlg" style="Regular" size="11"/>
-    </Text>
-</TrendsCtrlProfile>
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TrendsCtrlProfile SYSTEM "TrendsCtrlProfile.dtd"><TrendsCtrlProfile version="1.0"><Graphic><Color id="ID_BACKGROUND1" color="#FF000000"/><Color id="ID_BACKGROUND2" color="#FF000000"/><Color id="ID_PLOT1" color="#B0EAEA00"/><Color id="ID_PLOT2" color="#B016D116"/><Color id="ID_GRID" color="#FF00EAEA"/><Color id="ID_TEXT" color="#FFFFFFFF"/></Graphic><Text><Font id="ID_PLOT" family="MS Shell Dlg" style="Regular" size="11"/><Font id="ID_XUNITS" family="MS Shell Dlg" style="Regular" size="11"/><Font id="ID_YUNITS" family="MS Shell Dlg" style="Regular" size="11"/><Font id="ID_YRANGES" family="MS Shell Dlg" style="Regular" size="11"/></Text></TrendsCtrlProfile>

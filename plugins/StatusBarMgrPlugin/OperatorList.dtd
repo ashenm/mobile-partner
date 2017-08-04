@@ -1,13 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT OperatorList (MccMnc+, MccOnly)>
-<!ELEMENT MccMnc (Region+)>
-<!ELEMENT Region (Item+)>
-<!ATTLIST Region
+<?xml version="1.0" encoding="UTF-8"?><!ELEMENT OperatorList (MccMnc+, MccOnly)><!ELEMENT MccMnc (Region+)><!ELEMENT Region (Item+)><!ATTLIST Region
     descr CDATA #REQUIRED
->
-<!ELEMENT MccOnly (Item+)>
-<!ELEMENT Item EMPTY>
-<!ATTLIST Item
+><!ELEMENT MccOnly (Item+)><!ELEMENT Item EMPTY><!ATTLIST Item
     mcc CDATA #REQUIRED
     mnc CDATA #IMPLIED
     type CDATA #IMPLIED

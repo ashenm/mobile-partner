@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<utpsdoc type="Profile">
-    <Default Default="huawei" type="DialUp"/>
-    <ProfileGroup type="Dailup">
-        <Template name="IDS_NEWPROFILE" type="3G/GPRS" readonly="false" user="" password="" phonenumber="*99#" autoapn="true" apn="" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt="" popusername="false" Remember="false"/>
-    </ProfileGroup>
-</utpsdoc>
+<?xml version="1.0" encoding="UTF-8"?><utpsdoc type="Profile"><Default Default="huawei" type="DialUp"/><ProfileGroup type="Dailup"><Template name="IDS_NEWPROFILE" type="3G/GPRS" readonly="false" user="" password="" phonenumber="*99#" autoapn="true" apn="" chap="true" pap="false" ip="" dns="" dnsalt="" wins="" winsalt="" popusername="false" Remember="false"/></ProfileGroup></utpsdoc>
