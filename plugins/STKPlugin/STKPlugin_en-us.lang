@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<utpsdoc type="resource">
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
     <module name="STKPlugin">
-		<item name="IDS_STK_TITLE">Sim Toolkit</item>
+        <item name="IDS_STK_TITLE">Sim Toolkit</item>
         <item name="IDS_STK_BTN_BACK">&lt; Back</item>
         <item name="IDS_STK_BTN_SELECT">Select</item>
         <item name="IDS_STK_BTN_CLOSE">Close</item>
-		<item name="IDS_STK_BTN_OK">OK</item>
-		<item name="IDS_STK_BTN_CANCEL">Cancel</item>
+        <item name="IDS_STK_BTN_OK">OK</item>
+        <item name="IDS_STK_BTN_CANCEL">Cancel</item>
         <item name="IDS_STK_MSG_PROMPT">Prompt</item>
         <item name="IDS_STK_MSG_INPUTFAILED">Input failed.</item>
     </module>

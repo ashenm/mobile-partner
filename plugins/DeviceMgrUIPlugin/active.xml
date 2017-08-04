@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <main>
-	<activetype>2</activetype>
-	<autoactive>
-		<autonum>*228</autonum>
-	</autoactive>
-	<manualactive>
-		<displaycode>1</displaycode>
-		<showtype>0</showtype>
-		<min length="10">1</min>
-		<mdn length="10">0</mdn>
-		<sid length="5">1</sid>
-		<prl>0</prl>
-	</manualactive>
+    <activetype>2</activetype>
+    <autoactive>
+        <autonum>*228</autonum>
+    </autoactive>
+    <manualactive>
+        <displaycode>1</displaycode>
+        <showtype>0</showtype>
+        <min length="10">1</min>
+        <mdn length="10">0</mdn>
+        <sid length="5">1</sid>
+        <prl>0</prl>
+    </manualactive>
 </main>

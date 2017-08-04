@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="utf-8" ?> 
+<?xml version="1.0" encoding="utf-8" ?>
 <utpsdoc type="resource">
-<module name="ConnectMgrUIPlugin">
-  <item name="IDS_SETTING_NAME">Connection</item>
-  <item name="IDS_CONNECT_TYPE_GROUP">Connection Type</item>
-  <item name="IDS_CONNECT_TYPE_CHECK_RSA">RAS(modem)</item>
-  <item name="IDS_CONNECT_TYPE_CHECK_NDIS">NDIS</item>
-  
-  <item name="IDS_CONNECT_DIALTYPE">DialUp Type</item>
-  <item name="IDS_CONNECT_DEFAULTPROFILE">Default Profile</item>
-  <item name="IDS_CONNECT_LABEL_IPTYPE">DialUp Type</item>
-  <item name="IDS_CONNECT_LABEL_PROFILE">Profile Name</item>
-  <item name="IDS_SELECT_IPV4">IPv4</item>
-  <item name="IDS_SELECT_IPV6">IPv6</item>
-  <item name="IDS_SELECT_IPV4V6">IPv4v6</item>
-</module>
+    <module name="ConnectMgrUIPlugin">
+        <item name="IDS_SETTING_NAME">Connection</item>
+        <item name="IDS_CONNECT_TYPE_GROUP">Connection Type</item>
+        <item name="IDS_CONNECT_TYPE_CHECK_RSA">RAS(modem)</item>
+        <item name="IDS_CONNECT_TYPE_CHECK_NDIS">NDIS</item>
+        <item name="IDS_CONNECT_DIALTYPE">DialUp Type</item>
+        <item name="IDS_CONNECT_DEFAULTPROFILE">Default Profile</item>
+        <item name="IDS_CONNECT_LABEL_IPTYPE">DialUp Type</item>
+        <item name="IDS_CONNECT_LABEL_PROFILE">Profile Name</item>
+        <item name="IDS_SELECT_IPV4">IPv4</item>
+        <item name="IDS_SELECT_IPV6">IPv6</item>
+        <item name="IDS_SELECT_IPV4V6">IPv4v6</item>
+    </module>
 </utpsdoc>
