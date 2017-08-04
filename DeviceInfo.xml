@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?> 
 <DeviceInfo>
  <DeviceReg>
   <PCUI>
@@ -72,9 +72,9 @@
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="SM"/>
    </ShortMessageMemory>
   </item>
@@ -84,26 +84,25 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
   </item>
-
   <item name="TD-SCDMA" Alias="" SMMode="PDU" ProductNet="TD-SCDMA" SimUnlock="Y">
    <PhonebookMemory>
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="SM"/>
    </ShortMessageMemory>
   </item>
@@ -141,7 +140,7 @@
   <item devicename="E169"></item>
   <item devicename="E176"></item>
   <item devicename="E176G"></item>
- </UssdUnEncode>
+ </UssdUnEncode>  
 
  <DeviceConfigList>
   <item name="238" ProductId="3" Protocol="1" SMMode="TEXT" ProductNet="CDMA">
@@ -149,9 +148,9 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
    </ShortMessageMemory>
   </item>
@@ -160,9 +159,9 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
    </ShortMessageMemory>
   </item>
@@ -171,13 +170,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -187,13 +186,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -203,13 +202,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -219,13 +218,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -235,13 +234,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -251,13 +250,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -267,13 +266,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -283,13 +282,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -299,13 +298,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -315,13 +314,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -331,13 +330,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -347,13 +346,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -363,13 +362,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -380,13 +379,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -397,13 +396,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -413,13 +412,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -429,13 +428,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
@@ -445,13 +444,13 @@
     <Memory name="ME">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
     <Memory name="SM">
      <field name="name"/>
      <field name="mobile"/>
-    </Memory>
+    </Memory>      
    </PhonebookMemory>
-   <ShortMessageMemory>
+   <ShortMessageMemory> 
     <Memory name="ME"/>
     <Memory name="SM"/>
    </ShortMessageMemory>
