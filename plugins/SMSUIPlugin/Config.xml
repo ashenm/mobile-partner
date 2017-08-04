@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <utpsdoc type="sysconfig">
-	<menu name="listview" parent="null">
-		<item type="ITEM" id="IDS_MENU_NEW">New</item>
-		<item type="ITEM" id="IDS_MENU_EDIT">Edit</item>
-		<item type="SEPERATOR" id=""></item>
-		<item type="ITEM" id="IDS_MENU_SEND">Send</item>
-		<item type="ITEM" id="IDS_MENU_REPLY">Reply</item>
-		<item type="ITEM" id="IDS_MENU_FORWARD">Forward</item>
-		<item type="ITEM" id="IDS_MENU_CALL">Call</item>
-		<item type="SEPERATOR" id=""></item>
-		<item type="ITEM" id="IDS_MENU_SAVENUMBER">Save Number</item>
-		<item type="SEPERATOR" id=""></item>
-		<item type="ITEM" id="IDS_MENU_DELETE">Delete</item>
-		<item type="ITEM" id="IDS_MENU_CLEARALL">Delete All</item>
-		<item type="ITEM" id="IDS_MENU_RECOVER">Recover</item>
-		<item type="SEPERATOR" id=""></item>
-		<item type="ITEM" id="IDS_MENU_SEARCH">Search</item>
-		<item type="SEPERATOR" id=""></item>
-		<item type="ITEM" id="IDS_EXPORT_SMSSELECT">Export Selected SMS</item>
-		<item type="ITEM" id="IDS_EXPORT_SMSALL">Export SMS All</item>
-		<item type="SEPERATOR" id=""></item>
-		<item type="POPUP" id="IDS_MENU_MOVE2">Move to</item>
-		<item type="POPUP" id="IDS_MENU_MOVEAll2">Move All to</item>
-		<item type="POPUP" id="IDS_MENU_COPY2">Copy to</item>
-		<item type="POPUP" id="IDS_MENU_COPYAll2">Copy All to</item>
-		<!--item type="SEPERATOR" "id=""></item>
-		<item type="POPUP" id="IDS_MENU_MOVEAllFROM">Move All from</item>
-		<item type="POPUP" id="IDS_MENU_COPYAllFROM">Copy All from</item-->
-	</menu>
-	<menu name="listview" parent="Move to">
-		<item type="ITEM" id="IDS_TREE_LOCAL">Local</item>
-		<item type="ITEM" id="IDS_TREE_SIM">SIM</item>
-		<item type="ITEM" id="IDS_TREE_DEVICE">device</item>
-	</menu>
-	<menu name="listview" parent="Move All to">
-		<item type="ITEM" id="IDS_TREE_LOCAL">Local</item>
-		<item type="ITEM" id="IDS_TREE_SIM">SIM</item>
-		<item type="ITEM" id="IDS_TREE_DEVICE">device</item>
-	</menu>
-	<menu name="listview" parent="Copy to">
-		<item type="ITEM" id="IDS_TREE_LOCAL">Local</item>
-		<item type="ITEM" id="IDS_TREE_SIM">SIM</item>
-		<item type="ITEM" id="IDS_TREE_DEVICE">device</item>
-	</menu>
-	<menu name="listview" parent="Copy All to">
-		<item type="ITEM" id="IDS_TREE_LOCAL">Local</item>
-		<item type="ITEM" id="IDS_TREE_SIM">SIM</item>
-		<item type="ITEM" id="IDS_TREE_DEVICE">device</item>
-	</menu>
-	<!--menu name="listview" parent="Move All from">
-		<item type="ITEM" id="IDS_TREE_LOCAL">Local</item>
-		<item type="ITEM" id="IDS_TREE_SIM">SIM</item>
-		<item type="ITEM" id="IDS_TREE_DEVICE">device</item>
-	</menu>
-	<menu name="listview" parent="Copy All from">
-		<item type="ITEM" id="IDS_TREE_LOCAL">Local</item>
-		<item type="ITEM" id="IDS_TREE_SIM">SIM</item>
-		<item type="ITEM" id="IDS_TREE_DEVICE">device</item>
-	</menu-->
-	<menu name="listview" parent="Send">
-		<item type="ITEM" id="IDS_SEND_TEXT_MSG">Send Text Message</item>
-		<item type="ITEM" id="IDS_SEND_MULTI_MESG">SendMultimedia Message</item>
-	</menu>
+    <menu name="listview" parent="null">
+        <item type="ITEM" id="IDS_MENU_NEW">New</item>
+        <item type="ITEM" id="IDS_MENU_EDIT">Edit</item>
+        <item type="SEPERATOR" id=""></item>
+        <item type="ITEM" id="IDS_MENU_SEND">Send</item>
+        <item type="ITEM" id="IDS_MENU_REPLY">Reply</item>
+        <item type="ITEM" id="IDS_MENU_FORWARD">Forward</item>
+        <item type="ITEM" id="IDS_MENU_CALL">Call</item>
+        <item type="SEPERATOR" id=""></item>
+        <item type="ITEM" id="IDS_MENU_SAVENUMBER">Save Number</item>
+        <item type="SEPERATOR" id=""></item>
+        <item type="ITEM" id="IDS_MENU_DELETE">Delete</item>
+        <item type="ITEM" id="IDS_MENU_CLEARALL">Delete All</item>
+        <item type="ITEM" id="IDS_MENU_RECOVER">Recover</item>
+        <item type="SEPERATOR" id=""></item>
+        <item type="ITEM" id="IDS_MENU_SEARCH">Search</item>
+        <item type="SEPERATOR" id=""></item>
+        <item type="ITEM" id="IDS_EXPORT_SMSSELECT">Export Selected SMS</item>
+        <item type="ITEM" id="IDS_EXPORT_SMSALL">Export SMS All</item>
+        <item type="SEPERATOR" id=""></item>
+        <item type="POPUP" id="IDS_MENU_MOVE2">Move to</item>
+        <item type="POPUP" id="IDS_MENU_MOVEAll2">Move All to</item>
+        <item type="POPUP" id="IDS_MENU_COPY2">Copy to</item>
+        <item type="POPUP" id="IDS_MENU_COPYAll2">Copy All to</item>
+        <!--item type="SEPERATOR" "id=""></item>
+        <item type="POPUP" id="IDS_MENU_MOVEAllFROM">Move All from</item>
+        <item type="POPUP" id="IDS_MENU_COPYAllFROM">Copy All from</item-->
+    </menu>
+    <menu name="listview" parent="Move to">
+        <item type="ITEM" id="IDS_TREE_LOCAL">Local</item>
+        <item type="ITEM" id="IDS_TREE_SIM">SIM</item>
+        <item type="ITEM" id="IDS_TREE_DEVICE">device</item>
+    </menu>
+    <menu name="listview" parent="Move All to">
+        <item type="ITEM" id="IDS_TREE_LOCAL">Local</item>
+        <item type="ITEM" id="IDS_TREE_SIM">SIM</item>
+        <item type="ITEM" id="IDS_TREE_DEVICE">device</item>
+    </menu>
+    <menu name="listview" parent="Copy to">
+        <item type="ITEM" id="IDS_TREE_LOCAL">Local</item>
+        <item type="ITEM" id="IDS_TREE_SIM">SIM</item>
+        <item type="ITEM" id="IDS_TREE_DEVICE">device</item>
+    </menu>
+    <menu name="listview" parent="Copy All to">
+        <item type="ITEM" id="IDS_TREE_LOCAL">Local</item>
+        <item type="ITEM" id="IDS_TREE_SIM">SIM</item>
+        <item type="ITEM" id="IDS_TREE_DEVICE">device</item>
+    </menu>
+    <!--menu name="listview" parent="Move All from">
+        <item type="ITEM" id="IDS_TREE_LOCAL">Local</item>
+        <item type="ITEM" id="IDS_TREE_SIM">SIM</item>
+        <item type="ITEM" id="IDS_TREE_DEVICE">device</item>
+    </menu>
+    <menu name="listview" parent="Copy All from">
+        <item type="ITEM" id="IDS_TREE_LOCAL">Local</item>
+        <item type="ITEM" id="IDS_TREE_SIM">SIM</item>
+        <item type="ITEM" id="IDS_TREE_DEVICE">device</item>
+    </menu-->
+    <menu name="listview" parent="Send">
+        <item type="ITEM" id="IDS_SEND_TEXT_MSG">Send Text Message</item>
+        <item type="ITEM" id="IDS_SEND_MULTI_MESG">SendMultimedia Message</item>
+    </menu>
 </utpsdoc>
