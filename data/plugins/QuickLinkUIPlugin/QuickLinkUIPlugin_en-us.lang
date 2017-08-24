@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+    <module name="QuickLinkUIPlugin">
+        <item name="IDS_LINK_TYPE_APPLICATION">Application</item>
+        <item name="IDS_LINK_TYPE_E-MAIL">E-mail client</item>
+        <item name="IDS_LINK_TYPE_INTERNET">Internet browser</item>
+        <item name="IDS_LINK_PROMPT">Prompt</item>
+        <item name="IDS_SETTING_NAME">Quick Link</item>
+        <item name="IDS_LINK_SETTING_ORDER">Launch Order</item>
+        <item name="IDS_LINK_SETTING_NEW">New</item>
+        <item name="IDS_LINK_SETTING_EDIT">Edit</item>
+        <item name="IDS_LINK_SETTING_DEL">Delete</item>
+        <item name="IDS_LINK_SETTING_UP">Up</item>
+        <item name="IDS_LINK_SETTING_DOWN">Down</item>
+        <item name="IDS_LINK_SETTING_TAB">Quick Link</item>
+        <item name="IDS_LINK_SETTING_NAME">Name</item>
+        <item name="IDS_LINK_SETTING_TYPE">Type</item>
+        <item name="IDS_LINK_SETTING_NEW_NAME">Name:</item>
+        <item name="IDS_LINK_SETTING_NEW_TYPE">Type:</item>
+        <item name="IDS_LINK_SETTING_NEW_OK">OK</item>
+        <item name="IDS_LINK_SETTING_NEW_CANCEL">Cancel</item>
+        <item name="IDS_LINK_SETTING_NEW_CHECK">Launch automatically when connected</item>
+        <item name="IDS_LINK_SETTING_NEW_CHECK_STARTUP">Launch automatically when the software is launched</item>
+        <item name="IDS_LINK_SETTING_NEW_TAB_IE">Internet Browser</item>
+        <item name="IDS_LINK_SETTING_NEW_TAB_IE_URL">URL:</item>
+        <item name="IDS_LINK_SETTING_NEW_TAB_APP">Application</item>
+        <item name="IDS_LINK_SETTING_NEW_TAB_EMAIL">E-mail Client</item>
+        <item name="IDS_LINK_SETTING_NEW_TAB_APP_URL">Application Path</item>
+        <item name="IDS_LINK_SETTING_NEW_TAB_EMAIL_URL">Default E-mail Client</item>
+        <item name="IDS_LINK_SETTING_NEW_TAB_APP_PARA">Application Parameters</item>
+        <item name="IDS_LINK_SETTING_NEW_TAB_APP_BROWSER">Browser...</item>
+        <item name="IDS_LINK_SETTING_NEW_TITLE">New Quick Link</item>
+        <item name="IDS_LINK_SETTING_EDIT_TITLE">Edit Quick Link</item>
+        <item name="IDS_LINK_SETTING_NOT_SELECT_ITEM">You have not select an item</item>
+        <item name="IDS_LINK_SETTING_NO_NAME">Name cannot be empty.</item>
+        <item name="IDS_LINK_SETTING_NO_TYPE">Type cannot be empty</item>
+        <item name="IDS_LINK_SETTING_NO_URL">URL cannot be empty</item>
+        <item name="IDS_LINK_SETTING_FILENOTEXIST">The file does not exist or the format is invalid.</item>
+        <item name="IDS_LINK_SETTING_INVALID_URL">URL is invalid</item>
+        <item name="IDS_LINK_SETTING_DELETE_CONFORM">Are you sure to delete?</item>
+        <item name="IDS_LINK_SETTING_NAME_SAME">The name already exists,please change</item>
+    </module>
+</utpsdoc>

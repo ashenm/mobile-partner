@@ -1,3 +1,0 @@
-.git
-exclude.txt
-installer.bat

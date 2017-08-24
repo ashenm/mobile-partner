@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<utpsdoc type="resource">
+    <module name="CBSSettingPlugin">
+        <item name="IDS_PLUGIN_NAME">CBS</item>
+        <item name="IDS_PLUGIN_MENUITEM">Cell Broadcast</item>
+        <item name="IDS_SETTING_NAME">Cell Broadcast</item>
+        <item name="IDS_DATE_FORMAT">%d/%m/%Y</item>
+        <item name="IDS_TIME_FORMAT">%H:%M:%S</item>
+        <item name="IDS_GBX_CBS">Cell Broadcast</item>
+        <item name="IDS_CBX_CBS_OPEN">Open</item>
+        <item name="IDS_CBX_CBS_CLOSE">Close</item>
+        <item name="IDS_GBX_CBCH">Cell Broadcast Channel</item>
+        <item name="IDS_LST_SELECT_CHANNEL">Active Channels</item>
+        <item name="IDS_STA_ADD_CBCH">Add Channel:</item>
+        <item name="IDS_BTN_ADD_CHANNEL">Add</item>
+        <item name="IDS_BTN_REMOVE_CHANNEL">Remove</item>
+        <item name="IDS_GBX_AUTO_CLEANUP">Auto Cleanup</item>
+        <item name="IDS_CBX_NONE">None</item>
+        <item name="IDS_CBX_DAYS">Messages before %d days before</item>
+        <item name="IDS_BUTTON_APPLY">Apply</item>
+        <item name="IDS_STR_PROMPT">Prompt</item>
+        <item name="IDS_STR_CHANNEL_EXIST">The channel already exists.</item>
+        <item name="IDS_STR_CHANNEL_OVERFLOW">The valid range is 0-65535.</item>
+        <item name="IDS_STR_CHANNEL_FULL">Cannot add more channel.</item>
+        <item name="IDS_STR_OPEN_SERVICE_FAILURE">Failed to open cell broadcast service.</item>
+        <item name="IDS_STR_CLOSE_SERVICE_FAILURE">Failed to close cell broadcast service.</item>
+        <item name="IDS_STR_ADD_CHANNEL_FAILURE">Failed to add cell broadcast channel.</item>
+        <item name="IDS_STR_REMOVE_CHANNEL_FAILURE">Failed to remove cell broadcast channel.</item>
+    </module>
+</utpsdoc>
