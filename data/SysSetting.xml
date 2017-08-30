@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <utpsdoc>
     <system>
-        <startmin>0</startmin>
+        <startmin>1</startmin>
         <skin>Classic</skin>
         <bkcolor>default</bkcolor>
         <logoconfig>0</logoconfig>
@@ -39,7 +39,7 @@
     </MiniSkin>
     <callui>
         <calltrans>0</calltrans>
-        <incoming>1</incoming>
+        <incoming>0</incoming>
         <sound>1</sound>
         <ring>callvoice.wav</ring>
         <Sound>1</Sound>
@@ -50,7 +50,7 @@
         <LocalRecord>0</LocalRecord>
         <CallWaitting>0</CallWaitting>
         <CallRestriction>0</CallRestriction>
-        <callvoice>1</callvoice>
+        <callvoice>0</callvoice>
         <callvideo>0</callvideo>
         <SupportLinux>0</SupportLinux>
     </callui>

@@ -31,7 +31,7 @@
         <style>0x00000011</style>
         <customtitlebar>true</customtitlebar>
         <skinstyle>0</skinstyle>
-        <exitprompt>1</exitprompt>
+        <exitprompt>0</exitprompt>
         <exitpromptdisconn>1</exitpromptdisconn>
         <addtitle>false</addtitle>
         <maininterface>92804312-432E-401F-96BB-1C20D852815D</maininterface>

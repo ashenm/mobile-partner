@@ -1,21 +1,21 @@
 @ECHO off
-TITLE Mobile Partner Configuration Optimizor
+TITLE Mobile Partner Optimizer
 
 REM Source path
-SET MobilePartnerInstallerPath=%~dp0
+SET MPartnerSrc=%~dp0
 
-REM Determines installation path
+REM Determine the installation path
 IF %PROCESSOR_ARCHITECTURE% == AMD64 (
-    SET MobilePartnerRootPath="%ProgramFiles(x86)%\Mobile Partner\"
+    SET MPartnerRoot="%ProgramFiles(x86)%\Mobile Partner\"
 ) ELSE (
-    SET MobilePartnerRootPath="%ProgramFiles%\Mobile Partner\"
+    SET MPartnerRoot="%ProgramFiles%\Mobile Partner\"
 )
 
 REM Remove all exisiting language files
-DEL /S /Q /F %MobilePartnerRootPath%plugins\*.lang
+DEL /S /Q /F %MPartnerRoot%plugins\*.lang
 
 REM Copy new configuration
-XCOPY %MobilePartnerInstallerPath%data\* %MobilePartnerRootPath% /S /R /Y
+XCOPY %MPartnerSrc%data\* %MPartnerRoot% /S /R /Y
 
 CLS
 

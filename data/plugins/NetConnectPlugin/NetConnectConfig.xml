@@ -15,7 +15,7 @@
                     pap: whether to support the way pap password authentication protocol
                     ip: will be linked to ip address
                     dns: will be linked to dns address
-                    dns: the second dns
+                    dnsalt: the second dns
                     wins: will be linked to wins
                     winsalt: The second winsalt
                     popusername: the need for the user's password dialog box pop-up
@@ -768,9 +768,9 @@
                 <item name="Zain SA" value="default" type="DialUp"/>
             </IMSIProfileList>
             <IMSIProfileList imsi="41302">
-                <item name="Dialog Broadband (Post Paid)" value="default" type="DialUp"/>
-                <item name="Dialog Prepaid Mobile Broadband " type="DialUp"/>
-                <item name="Dialog Internet " type="DialUp"/>
+                <item name="Dialog Broadband" value="default" type="DialUp"/>
+                <item name="Dialog Prepaid Mobile Broadband" type="DialUp"/>
+                <item name="Dialog Postpaid Mobile Broadband" type="DialUp"/>
             </IMSIProfileList>
             <IMSIProfileList imsi="50501">
                 <item name="Telstra.Internet" value="default" type="DialUp"/>
