@@ -1,29 +1,19 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### Mobile Partner Optimizer for Windows ###
 
-### What is this repository for? ###
-
-* Quick summary 
-* Version 23.015.11.01.983
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Optimizes Mobile Partner for less resource usage
+* Compatible Version [23.015.11.01.983](http://download-c1.huawei.com/download/downloadCenter?downloadId=55222&version=175478&siteCode=)
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Run `install.bat` with administrator privilages
 
 ### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+* Use `developer` branch
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* Repo [admin](https://bitbucket.org/ashenmgunaratne/)
+
