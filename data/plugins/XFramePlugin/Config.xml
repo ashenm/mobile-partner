@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <utpsdoc type="sysconfig">
     <!-- style
         FS_XFRAME = 0x00000001,
@@ -20,9 +20,9 @@
         QCleanlooksStyle = 7,
         QWindowsXPStyle = 8,
         QWindowsVistaStyle = 9 -->
-    <windowsize name="xframe" width="750" height="550" minwidth="600" minheight="415"/>
+    <windowsize name="xframe" width="750" height="550" minwidth="600" minheight="415" />
     <!--windowsize name="miniframe" width="400" height="200" minwidth="400" minheight="200"/-->
-    <windowsize name="miniframe" width="365" height="212" minwidth="365" minheight="212"/>
+    <windowsize name="miniframe" width="365" height="212" minwidth="365" minheight="212" />
     <function>
         <splash>false</splash>
         <splashscreenstoptime>3</splashscreenstoptime>
@@ -181,10 +181,10 @@
         <!--item type="NORMAL" module="XFramePlugin" icon="SMSUssd" icon2="SMSUssdDisable" id="IDS_XFRAME_SMSUSSD">43070</item-->
     </toolbar>
     <accelerators name="xframe">
-        <item key="VK_F1" id="IDS_MAINFRM_MENU_MAINFR_HELP" module="XFramePlugin" virtkey=""/>
+        <item key="VK_F1" id="IDS_MAINFRM_MENU_MAINFR_HELP" module="XFramePlugin" virtkey="" />
     </accelerators>
     <!--customize name="eMobile_C109" device="E227">
-        <windowsize name="xframe" width="618" height="420"/>
+        <windowsize name="xframe" width="618" height="420" />
         <function>
             <splash>false</splash>
             <layoutmaginwidth>0</layoutmaginwidth>

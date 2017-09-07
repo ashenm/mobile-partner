@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <utpsdoc type="resource">
     <module name="VPNPlugin">
         <item name="IDS_SETTING_NAME">VPN</item>

@@ -1,53 +1,53 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <utpsdoc type="config">
 <group name="customize">
     <module name="common">
         <fluxunit>
-            <item name="KB" value="1024" type="1024" langResID=""/>
-            <item name="MB" value="1048576" type="1048576" langResID=""/>
-            <item name="GB" value="1073741824" type="1073741824" langResID=""/>
+            <item name="KB" value="1024" type="1024" langResID="" />
+            <item name="MB" value="1048576" type="1048576" langResID="" />
+            <item name="GB" value="1073741824" type="1073741824" langResID="" />
         </fluxunit>
         <speedunit>
-            <item name="kbps" value="125" type="125" langResID=""/>
-            <item name="Mbps" value="125000" type="125000" langResID=""/>
+            <item name="kbps" value="125" type="125" langResID="" />
+            <item name="Mbps" value="125000" type="125000" langResID="" />
         </speedunit>
         <format>
-            <item name="date" value="%Y-%m-%d"/>
-            <item name="time" value="%H:%M:%S"/>
+            <item name="date" value="%Y-%m-%d" />
+            <item name="time" value="%H:%M:%S" />
         </format>
         <function>
-            <item name="SHOWGRAPH" value="true" describe="show graph on the right"/>
-            <item name="TRANSFER" value="true" describe="show transefer on the lesf"/>
-            <item name="TRANSFERTIME" value="true" describe="show transefer on the lesf"/>
-            <item name="TRANSFERUPLOAD" value="true" describe="show transefer on the lesf"/>
-            <item name="TRANSFERDOWNLOAD" value="true" describe="show transefer on the lesf"/>
-            <item name="STATISTICS" value="true" describe="show transefer on the lesf"/>
-            <item name="SHOWRESETSTATISTICS" value="true" describe="show resetstatistics on the lesf"/>
-            <item name="STATISTICSDAILY" value="true" describe="show transefer on the lesf"/>
-            <item name="STATISTICSMONTHLY" value="true" describe="show transefer on the lesf"/>
-            <item name="STATISTICSYEARLY" value="true" describe="show transefer on the lesf"/>
-            <item name="STATISTICSNOTES" value="true" describe="show transefer on the lesf"/>
+            <item name="SHOWGRAPH" value="true" describe="show graph on the right" />
+            <item name="TRANSFER" value="true" describe="show transefer on the lesf" />
+            <item name="TRANSFERTIME" value="true" describe="show transefer on the lesf" />
+            <item name="TRANSFERUPLOAD" value="true" describe="show transefer on the lesf" />
+            <item name="TRANSFERDOWNLOAD" value="true" describe="show transefer on the lesf" />
+            <item name="STATISTICS" value="true" describe="show transefer on the lesf" />
+            <item name="SHOWRESETSTATISTICS" value="true" describe="show resetstatistics on the lesf" />
+            <item name="STATISTICSDAILY" value="true" describe="show transefer on the lesf" />
+            <item name="STATISTICSMONTHLY" value="true" describe="show transefer on the lesf" />
+            <item name="STATISTICSYEARLY" value="true" describe="show transefer on the lesf" />
+            <item name="STATISTICSNOTES" value="true" describe="show transefer on the lesf" />
             <!-- In Build2 Volume Limit is Not supported Begin So Both are Set to false-->
-            <item name="DATAVOLUMELIMIT" value="false" describe="show datavolume on the lesf"/>
-            <item name="TIMEVOLUMELIMIT" value="false" describe="show timevolume on the lesf"/>
-            <item name="RESETALLDATA" value="false" describe="reset all data"/>
-            <item name="WarnExceed" value="false" describe="show warnbyvolume"/>
-            <item name="WarnBefore" value="false" describe="show warnbypersent"/>
+            <item name="DATAVOLUMELIMIT" value="false" describe="show datavolume on the lesf" />
+            <item name="TIMEVOLUMELIMIT" value="false" describe="show timevolume on the lesf" />
+            <item name="RESETALLDATA" value="false" describe="reset all data" />
+            <item name="WarnExceed" value="false" describe="show warnbyvolume" />
+            <item name="WarnBefore" value="false" describe="show warnbypersent" />
             <!-- In Build2 Volume Limit is Not supported End-->
         </function>
         <Color>
-            <item name="NoWarningColor" R="0" G="255" B="0"/>
-            <item name="BeforeWarningColor" R="255" G="128" B="65"/>
-            <item name="ReachedWarningColor" R="255" G="0" B="0"/>
-            <item name="ShowAvidResponsibility" R="255" G="0"  B="0"/>
+            <item name="NoWarningColor" R="0" G="255" B="0" />
+            <item name="BeforeWarningColor" R="255" G="128" B="65" />
+            <item name="ReachedWarningColor" R="255" G="0" B="0" />
+            <item name="ShowAvidResponsibility" R="255" G="0"  B="0" />
         </Color>
         <Limit>
-            <item name="Total_data_volume" value="2000" value1="true"/>
-            <item name="BeforTime" value="1" value1="true"/>
-            <item name="BeforTimePersent" value="90" value1="false"/>
-            <item name="ScopeByVolume" value="50" value1="true"/>
-            <item name="ScopeByPersent" value="90" value1="false"/>
-            <item name="Updata_time_restriction" value="100" value1="true"/>
+            <item name="Total_data_volume" value="2000" value1="true" />
+            <item name="BeforTime" value="1" value1="true" />
+            <item name="BeforTimePersent" value="90" value1="false" />
+            <item name="ScopeByVolume" value="50" value1="true" />
+            <item name="ScopeByPersent" value="90" value1="false" />
+            <item name="Updata_time_restriction" value="100" value1="true" />
         </Limit>
     </module>
 </group>

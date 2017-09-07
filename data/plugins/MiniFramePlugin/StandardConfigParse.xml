@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <utpsdoc type="config">
     <!--customize_Info>
         <item name="ID_DEVICE_NAME">
@@ -9,18 +9,18 @@
     </customize_Info>
     <customize_item>
         <conditions>
-            <item name="IMSI_1" value="46001"/>
+            <item name="IMSI_1" value="46001" />
         </conditions>
         <results>
-            <item name="SKIN_1" value="IDS_MINISKIN_DEFAULT"/>
+            <item name="SKIN_1" value="IDS_MINISKIN_DEFAULT" />
         </results>
     </customize_item>
     <customize_item>
         <conditions>
-            <item name="IMSI_2" value="45000"/>
+            <item name="IMSI_2" value="45000" />
         </conditions>
         <results>
-            <item name="SKIN_2" value="IDS_MINISKIN_FLOWER"/>
+            <item name="SKIN_2" value="IDS_MINISKIN_FLOWER" />
         </results>
     </customize_item-->
 </utpsdoc>

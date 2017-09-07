@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <USSD>
     <!-- Judge is Prepaid or Postpaid，If it is "true"，When the judge it out Postpaid,Ashing was hidden menu/icon,
     If it is "false",Does not distinguish between Prepaid or Postpaid -->
@@ -99,11 +99,11 @@
             <commoncolor red="255" green="255" blue="255"></commoncolor>
             <headcolor red="66" green="142" blue="194"></headcolor>
         </cmdEdit>
-        <clearHistory visible="false" showConfirmDialog="false"/>
+        <clearHistory visible="false" showConfirmDialog="false" />
         <autoUSSD valid="false">
-            <item imsi="4600902" ussd="Prepaid/Advanced"/>
-            <item imsi="4600975" ussd="Prepaid/Postpaid/Commonpaid"/>
-            <item imsi="46009" ussd="Advanced"/>
+            <item imsi="4600902" ussd="Prepaid/Advanced" />
+            <item imsi="4600975" ussd="Prepaid/Postpaid/Commonpaid" />
+            <item imsi="46009" ussd="Advanced" />
         </autoUSSD>
     </General>
 </USSD>

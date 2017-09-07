@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <utpsdoc type="sysconfig">
     <ToolBar name="SMSUIPlugin" count="8">
-        <item tooltip="IDS_TIP_NEW" enabled="sms_new.png" disabled="sms_new_gray.png" pluginname="" id="9000"/>
-        <item tooltip="IDS_TIP_DELETE" enabled="sms_delete.png" disabled="sms_delete_gray.png" pluginname="" id="9001"/>
-        <item tooltip="IDS_TIP_SEND" enabled="sms_send.png" disabled="sms_send_gray.png" pluginname="SMSUIPlugin" id="9002"/>
-        <item tooltip="IDS_TIP_REPLY" enabled="sms_reply.png" disabled="sms_reply_gray.png" pluginname="" id="9003"/>
-        <item tooltip="IDS_TIP_FORWARD" enabled="sms_forward.png" disabled="sms_forward_gray.png" pluginname="" id="9004"/>
-        <item tooltip="IDS_TIP_CALL" enabled="sms_call.png" disabled="sms_call_gray.png" pluginname="CallUIPlugin" id="9005"/>
-        <item tooltip="IDS_TIP_SEARCH" enabled="sms_search.png" disabled="sms_search_gray.png" pluginname="" id="9007"/>
+        <item tooltip="IDS_TIP_NEW" enabled="sms_new.png" disabled="sms_new_gray.png" pluginname="" id="9000" />
+        <item tooltip="IDS_TIP_DELETE" enabled="sms_delete.png" disabled="sms_delete_gray.png" pluginname="" id="9001" />
+        <item tooltip="IDS_TIP_SEND" enabled="sms_send.png" disabled="sms_send_gray.png" pluginname="SMSUIPlugin" id="9002" />
+        <item tooltip="IDS_TIP_REPLY" enabled="sms_reply.png" disabled="sms_reply_gray.png" pluginname="" id="9003" />
+        <item tooltip="IDS_TIP_FORWARD" enabled="sms_forward.png" disabled="sms_forward_gray.png" pluginname="" id="9004" />
+        <item tooltip="IDS_TIP_CALL" enabled="sms_call.png" disabled="sms_call_gray.png" pluginname="CallUIPlugin" id="9005" />
+        <item tooltip="IDS_TIP_SEARCH" enabled="sms_search.png" disabled="sms_search_gray.png" pluginname="" id="9007" />
     </ToolBar>
     <NumberLimit name="+0123456789*#;"></NumberLimit>
     <CBS>false</CBS>
     <CBSAutoCleanup name="AutoCleanup">
-        <item resource="0"/>
-        <item resource="3"/>
-        <item resource="5"/>
+        <item resource="0" />
+        <item resource="3" />
+        <item resource="5" />
     </CBSAutoCleanup>
     <ValidityPeriod name="SMSSettingValidityPeriod" count="4">
-        <item resource="IDS_CMB_ITEM12H"/>
-        <item resource="IDS_CMB_ITEM24H"/>
-        <item resource="IDS_CMB_ITEM30D"/>
-        <item resource="IDS_CMB_ITEMMAX"/>
+        <item resource="IDS_CMB_ITEM12H" />
+        <item resource="IDS_CMB_ITEM24H" />
+        <item resource="IDS_CMB_ITEM30D" />
+        <item resource="IDS_CMB_ITEMMAX" />
     </ValidityPeriod>
     <SMSCenter>
         <SMSCenterValid>false</SMSCenterValid>
