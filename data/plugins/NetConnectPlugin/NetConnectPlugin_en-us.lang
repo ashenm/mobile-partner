@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <utpsdoc type="resource">
     <module name="NetConnectPlugin">
         <item name="IDS_SETTING_STATIC_GROUP_NETWORK_CONNECT_SELECT">Profile Name</item>

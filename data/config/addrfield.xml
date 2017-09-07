@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <phonebook total="6">
     <item name="name" long="48" limit="null" forbid="null" type="Name" unicode="1">
         <userdefine sum="4">

@@ -5,9 +5,9 @@
         <CurrentID>53000</CurrentID>
     </function>
     <type>
-        <item id="0" name="IDS_LINK_TYPE_APPLICATION"/>
-        <item id="1" name="IDS_LINK_TYPE_E_MAIL"/>
-        <item id="2" name="IDS_LINK_TYPE_INTERNET"/>
+        <item id="0" name="IDS_LINK_TYPE_APPLICATION" />
+        <item id="1" name="IDS_LINK_TYPE_E_MAIL" />
+        <item id="2" name="IDS_LINK_TYPE_INTERNET" />
     </type>
     <menu parent="quicklink">
     </menu>
