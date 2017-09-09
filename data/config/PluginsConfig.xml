@@ -47,7 +47,7 @@
                 <!--item name="NetInfoRecordUIPlugin" clsid="27A315A2-D587-498a-9FC5-7CF2738679DF" /-->
                 <!--item name="STKPlugin" clsid="BB06C1A5-D060-413d-9F40-0226F2BEE443" /-->
                 <!--item name="DataBackupPlugin" clsid="9F2DA76D-CAD4-4c33-B8DA-3F41B8316FA9" /-->
-                <item name="USSDUIPlugin" clsid="6ADFE6DA-E212-4087-8466-043AB06DF4EB">
+                <item name="USSDUIPlugin" clsid="6ADFE6DA-E212-4087-8466-043AB06DF4EB" />
                 <!--item name="VideoCallUIPlugin" clsid="EAF9E049-AFD3-4DCB-B721-172970E7F3F7" /-->
                 <!-- item name="ADSLPlugin" clsid="5AA2A880-E6BB-4CE1-8984-624CEC90018E" / -->
                 <!--item name="EspaceLoginPlugin" clsid="DE9FFA67-DF3A-4297-AEEA-03F8322A19CD" /-->
