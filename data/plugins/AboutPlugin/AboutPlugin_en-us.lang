@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<utpsdoc type="resource">
-    <module name="AboutPlugin">
-        <item name="IDS_TITLE_NAME">About Mobile Partner</item>
-        <item name="IDS_NAME">Module</item>
-        <item name="IDS_VERSION">Version</item>
-        <item name="IDS_SOFTWARE_NAME">Mobile Partner</item>
-        <item name="IDS_OK">OK</item>
-        <item name="IDS_MAINFRM_COPYRIGHT_PROMPT">Copyright(C)2004-2015 HUAWEI Technologies Co., Ltd.</item>
-        <item name="IDS_MAINFRM_WARMING_PROMPT">Warning: This Program is protected by copyright laws and international copyright treaties. No part of this software may be reproduced or transmitted in any form or by any means without prior written consent of HUAWEI Technologies Co., Ltd.</item>
-        <item name="IDS_PRIVACY_POLICY">Privacy Policy</item>
-        <item name="IDS_PRIVACY_POLICY_URL">http://consumer.huawei.com/en/privacy-policy/index.htm</item>
-        <item name="IDS_OPEN_SOURCE_STATEMENT">Copyright Notice</item>
-        <item name="IDS_OPEN_SOURCE_STATEMENT_URL">/plugins/AboutPlugin/Copyright_Notice.htm</item>
-    </module>
-</utpsdoc>
+<?xml version="1.0" encoding="UTF-8"?><utpsdoc type="resource"><module name="AboutPlugin"><item name="IDS_TITLE_NAME">About Mobile Partner</item><item name="IDS_NAME">Module</item><item name="IDS_VERSION">Version</item><item name="IDS_SOFTWARE_NAME">Mobile Partner</item><item name="IDS_OK">OK</item><item name="IDS_MAINFRM_COPYRIGHT_PROMPT">Copyright(C)2004-2015 HUAWEI Technologies Co., Ltd.</item><item name="IDS_MAINFRM_WARMING_PROMPT">Warning: This Program is protected by copyright laws and international copyright treaties. No part of this software may be reproduced or transmitted in any form or by any means without prior written consent of HUAWEI Technologies Co., Ltd.</item><item name="IDS_PRIVACY_POLICY">Privacy Policy</item><item name="IDS_PRIVACY_POLICY_URL">http://consumer.huawei.com/en/privacy-policy/index.htm</item><item name="IDS_OPEN_SOURCE_STATEMENT">Copyright Notice</item><item name="IDS_OPEN_SOURCE_STATEMENT_URL">/plugins/AboutPlugin/Copyright_Notice.htm</item></module></utpsdoc>
