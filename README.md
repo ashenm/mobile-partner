@@ -1,19 +1,16 @@
-# README #
+# Mobile Partner Optimizer for Windows #
+Optimizes Mobile Partner for less resource usage
 
-### Mobile Partner Optimizer for Windows ###
+### Installation ###
 
-* Optimizes Mobile Partner for less resource usage
-* Compatible Version [23.015.11.01.983](http://download-c1.huawei.com/download/downloadCenter?downloadId=55222&version=175478&siteCode=)
+* Run `install.bat` with administrator privileges
 
-### How do I get set up? ###
+### Default Plugins ###
+Running the optimiser enables following optional plugins
+* USSD
 
-* Run `install.bat` with administrator privilages
+### Enable/Disable Plugins ###
+<!-- TODO -->
 
-### Contribution guidelines ###
-
-* Use `developer` branch
-
-### Who do I talk to? ###
-
-* Repo [admin](https://bitbucket.org/ashenmgunaratne/)
-
+### Compatibility ###
+* [23.015.11.01.983](http://download-c1.huawei.com/download/downloadCenter?downloadId=55222&version=175478&siteCode=)
