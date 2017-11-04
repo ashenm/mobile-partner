@@ -1,11 +1,1 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<utpsdoc type="USSDProfile">
-    <!--item>
-        <name>余款</name>
-        <value>#aaaaaaaaaaaaa#</value>
-        <readonly>false</readonly>
-        <showButton>true</showButton>
-        <langID>IDC_COMMON_BUTTON1</langID>
-        <desLangID></desLangID>
-    </item-->
-</utpsdoc>
+﻿<?xml version="1.0" encoding="UTF-8"?><utpsdoc type="USSDProfile"></utpsdoc>

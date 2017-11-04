@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<utpsdoc type="config">
-    <function>
-        <Visible>1</Visible>
-        <CurrentID>53000</CurrentID>
-    </function>
-    <type>
-        <item id="0" name="IDS_LINK_TYPE_APPLICATION" />
-        <item id="1" name="IDS_LINK_TYPE_E_MAIL" />
-        <item id="2" name="IDS_LINK_TYPE_INTERNET" />
-    </type>
-    <menu parent="quicklink">
-    </menu>
-</utpsdoc>
+<?xml version="1.0" encoding="UTF-8"?><utpsdoc type="config"><function><Visible>1</Visible><CurrentID>53000</CurrentID></function><type><item id="0" name="IDS_LINK_TYPE_APPLICATION" /><item id="1" name="IDS_LINK_TYPE_E_MAIL" /><item id="2" name="IDS_LINK_TYPE_INTERNET" /></type><menu parent="quicklink"></menu></utpsdoc>

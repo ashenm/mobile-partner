@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<utpsdoc type="resource">
-    <module name="VPNPlugin">
-        <item name="IDS_SETTING_NAME">VPN</item>
-        <item name="IDS_RADIO_NONE">Do not use VPN</item>
-        <item name="IDS_RADIO_EXIST">Use existing VPN client</item>
-        <item name="IDS_RADIO_OTHER">Use other VPN client</item>
-        <item name="IDS_STC_CLIENT">Client:</item>
-        <item name="IDS_STC_PROFILE">Profile:</item>
-        <item name="IDS_STC_COMMAND">Command Line:</item>
-        <item name="IDS_STC_PARAM">Parameter:</item>
-        <item name="IDS_BTN_BROWSE">Browse...</item>
-        <item name="IDS_CHECK_CONNECT">Dial up before setting up VPN:</item>
-        <item name="IDS_GRPBOX_OPTION">VPN Settings</item>
-        <item name="IDS_OPEN_PRL_FILE">Open File</item>
-    </module>
-</utpsdoc>
+<?xml version="1.0" encoding="UTF-8"?><utpsdoc type="resource"><module name="VPNPlugin"><item name="IDS_SETTING_NAME">VPN</item><item name="IDS_RADIO_NONE">Do not use VPN</item><item name="IDS_RADIO_EXIST">Use existing VPN client</item><item name="IDS_RADIO_OTHER">Use other VPN client</item><item name="IDS_STC_CLIENT">Client:</item><item name="IDS_STC_PROFILE">Profile:</item><item name="IDS_STC_COMMAND">Command Line:</item><item name="IDS_STC_PARAM">Parameter:</item><item name="IDS_BTN_BROWSE">Browse...</item><item name="IDS_CHECK_CONNECT">Dial up before setting up VPN:</item><item name="IDS_GRPBOX_OPTION">VPN Settings</item><item name="IDS_OPEN_PRL_FILE">Open File</item></module></utpsdoc>

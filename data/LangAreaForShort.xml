@@ -1,6 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<utpsdoc type="resource">
-    <module name="LocTool">
-        <item name="English - United States" lang="English" id="1033">en-us</item>
-    </module>
-</utpsdoc>
+<?xml version="1.0" encoding="UTF-8"?><utpsdoc type="resource"><module name="LocTool"><item name="English - United States" lang="English" id="1033">en-us</item></module></utpsdoc>
